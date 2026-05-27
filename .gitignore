@@ -1,0 +1,26 @@
+# Avhengigheter
+node_modules/
+
+# Miljøvariabler — inneholder passord og nøkler, skal ALDRI committes
+.env
+.env.*
+
+# Loggfiler
+*.log
+npm-debug.log*
+
+# Byggfiler
+dist/
+build/
+
+# Midlertidige filer
+*.zip
+~$*
+
+# OS-filer
+.DS_Store
+Thumbs.db
+
+# Dokumentasjon og scripts
+*.docx
+make_doc.js
